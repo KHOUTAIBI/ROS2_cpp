@@ -1,0 +1,4 @@
+float32 force
+float32 temperature
+float32 velocity
+float32 acceleration

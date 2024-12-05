@@ -1,0 +1,2 @@
+source;share/stm_motor/environment/ament_prefix_path.sh
+source;share/stm_motor/environment/path.sh

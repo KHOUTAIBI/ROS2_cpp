@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cpp_interfaces/msg/Custom.msg
+// generated code does not contain a copyright notice
+
+
+module cpp_interfaces {
+  module msg {
+    struct Custom {
+      float force;
+
+      float temperature;
+
+      float velocity;
+
+      float acceleration;
+    };
+  };
+};

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lidar_interfaces/msg/LidarScan.msg
+// generated code does not contain a copyright notice
+
+
+module lidar_interfaces {
+  module msg {
+    struct LidarScan {
+      @verbatim (language="comment", text=
+        "The moment the scan was taken")
+      uint64 stamp;
+
+      float scanfreq;
+
+      float samplerate;
+
+      sequence<float> range;
+
+      sequence<float> angle;
+
+      sequence<float> intensity;
+    };
+  };
+};
